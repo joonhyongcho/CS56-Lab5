@@ -1,0 +1,64 @@
+Release 14.7 - xst P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to O:/ENGS31/Lab5/xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 1.00 secs
+Total CPU time to Xst completion: 0.63 secs
+ 
+--> Parameter xsthdpdir set to O:/ENGS31/Lab5/xst
+
+
+Total REAL time to Xst completion: 1.00 secs
+Total CPU time to Xst completion: 0.64 secs
+ 
+--> Reading design: SerialRX.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Parsing
+  3) HDL Elaboration
+  4) HDL Synthesis
+       4.1) HDL Synthesis Report
+  5) Advanced HDL Synthesis
+       5.1) Advanced HDL Synthesis Report
+  6) Low Level Synthesis
+  7) Partition Report
+  8) Design Summary
+       8.1) Primitive and Black Box Usage
+       8.2) Device utilization summary
+       8.3) Partition Resource Summary
+       8.4) Timing Report
+            8.4.1) Clock Information
+            8.4.2) Asynchronous Control Signals Information
+            8.4.3) Timing Summary
+            8.4.4) Timing Details
+            8.4.5) Cross Clock Domains Report
+
+
+=========================================================================
+*                          HDL Parsing                                  *
+=========================================================================
+Parsing VHDL file "\\thayerfs.thayer.dartmouth.edu\f0019x8\ENGS31\Lab5\SerialRX.vhd" into library work
+Parsing entity <SerialRX>.
+Parsing architecture <Behavioral> of entity <serialrx>.
+ERROR:HDLCompiler:56 - "\\thayerfs.thayer.dartmouth.edu\f0019x8\ENGS31\Lab5\SerialRX.vhd" Line 164: <load_register> is not a signal.
+ERROR:HDLCompiler:69 - "\\thayerfs.thayer.dartmouth.edu\f0019x8\ENGS31\Lab5\SerialRX.vhd" Line 167: <rx_done> is not declared.
+ERROR:HDLCompiler:806 - "\\thayerfs.thayer.dartmouth.edu\f0019x8\ENGS31\Lab5\SerialRX.vhd" Line 198: Syntax error near "process".
+ERROR:HDLCompiler:841 - "\\thayerfs.thayer.dartmouth.edu\f0019x8\ENGS31\Lab5\SerialRX.vhd" Line 198: Expecting type  void for <baud_counter>.
+ERROR:HDLCompiler:806 - "\\thayerfs.thayer.dartmouth.edu\f0019x8\ENGS31\Lab5\SerialRX.vhd" Line 200: Syntax error near "process".
+ERROR:HDLCompiler:806 - "\\thayerfs.thayer.dartmouth.edu\f0019x8\ENGS31\Lab5\SerialRX.vhd" Line 201: Syntax error near "begin".
+ERROR:HDLCompiler:303 - "\\thayerfs.thayer.dartmouth.edu\f0019x8\ENGS31\Lab5\SerialRX.vhd" Line 205: Character '0' is not in type integer
+ERROR:HDLCompiler:806 - "\\thayerfs.thayer.dartmouth.edu\f0019x8\ENGS31\Lab5\SerialRX.vhd" Line 213: Syntax error near "process".
+ERROR:HDLCompiler:841 - "\\thayerfs.thayer.dartmouth.edu\f0019x8\ENGS31\Lab5\SerialRX.vhd" Line 213: Expecting type  void for <bit_counter>.
+ERROR:HDLCompiler:806 - "\\thayerfs.thayer.dartmouth.edu\f0019x8\ENGS31\Lab5\SerialRX.vhd" Line 215: Syntax error near "Behavioral".
+ERROR:HDLCompiler:841 - "\\thayerfs.thayer.dartmouth.edu\f0019x8\ENGS31\Lab5\SerialRX.vhd" Line 215: Expecting type  void for <behavioral>.
+VHDL file \\thayerfs.thayer.dartmouth.edu\f0019x8\ENGS31\Lab5\SerialRX.vhd ignored due to errors
+--> 
+
+Total memory usage is 189108 kilobytes
+
+Number of errors   :   11 (   0 filtered)
+Number of warnings :    0 (   0 filtered)
+Number of infos    :    0 (   0 filtered)
+
